@@ -89,7 +89,7 @@ public class ApiTest extends Data{
 
 	
 	@SuppressWarnings("unchecked")
-	@Test(priority = 3, dataProvider = "DataForPostVendaDog")
+	@Test(priority = 4, dataProvider = "DataForPostVendaDog")
 	public void test_post_venda(String id, String petId, int quantity, String status) {
 
 		JSONObject request = new JSONObject();
